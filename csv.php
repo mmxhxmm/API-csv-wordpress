@@ -38,7 +38,7 @@ while (($row = fgetcsv($csvFile, 0, ";")) !== FALSE) {
     $color = $product_data["Color"];
     $price = $product_data["K3EUR"]; 
     $codigoColor = $product_data["Color-codigo"];
-    $image_url = "https://res.cloudinary.com/www-stanleystella-com/t_pim/TechnicalNames/". $codigoColor ."_" . $SKU . "_" . $ColorCode . ".jpg";
+    $image_url = "https://res.cloudinary.com/your-web-name/t_pim/TechnicalNames/". $codigoColor ."_" . $SKU . "_" . $ColorCode . ".jpg";
     // Check if product already exists
     if (!isset($product_ids[$name])) {
         $product_id = wc_get_product_id_by_name($name);
