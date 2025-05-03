@@ -1,4 +1,3 @@
-# API-csv-wordpress
 WooCommerce CSV Product Importer with Variations and Images
 This PHP script imports products into a WooCommerce store from a CSV file. It creates variable products with variations (based on size and color), handles categories, and sideloads product images from external URLs.
 
